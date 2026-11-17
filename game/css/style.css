@@ -1,0 +1,16 @@
+body { margin: 0; background: #0b0d12; color: #e8e8e8; font-family: sans-serif; overflow: hidden; }
+#world { display: block; background: #1a1f2b; cursor: crosshair; }
+#minimap { position: absolute; top: 12px; right: 12px; border: 2px solid #ffd54a; border-radius: 8px; background: #10131a; }
+#hud { position: absolute; top: 12px; left: 12px; font-weight: bold; text-shadow: 0 1px 2px #000; }
+#wanted { font-size: 22px; color: #ff4444; letter-spacing: 2px; }
+#cash { font-size: 20px; color: #7CFC9A; margin-top: 4px; }
+#mission { font-size: 14px; color: #ffe08a; margin-top: 6px; max-width: 320px; }
+#health { width: 180px; height: 10px; background: #330000; border: 1px solid #000; margin-top: 8px; }
+#healthBar { height: 100%; width: 100%; background: #e63946; transition: width .2s; }
+#start { position: absolute; inset: 0; background: rgba(5,6,10,.92); display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; z-index: 10; }
+#start h1 { font-size: 48px; letter-spacing: 6px; color: #ffd54a; margin-bottom: 8px; }
+#start p { max-width: 480px; }
+#start .hint { font-size: 12px; opacity: .7; }
+#playBtn { margin-top: 16px; padding: 12px 36px; font-size: 18px; background: #ffd54a; border: none; border-radius: 6px; cursor: pointer; font-weight: bold; }
+#playBtn:hover { background: #ffe08a; }
+.hidden { display: none !important; }

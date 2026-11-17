@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Sunline City</title>
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+<div id="start">
+  <h1>SUNLINE CITY</h1>
+  <p>A one-city crime story. Arrow keys / WASD to move, E to enter or leave a car, Space to act, M to open mission.</p>
+  <button id="playBtn">Play</button>
+  <p class="hint">Your progress saves automatically.</p>
+</div>
+<canvas id="world" width="960" height="600"></canvas>
+<canvas id="minimap" width="160" height="160"></canvas>
+<div id="hud">
+  <div id="wanted"></div>
+  <div id="cash">$0</div>
+  <div id="mission"></div>
+  <div id="health"><div id="healthBar"></div></div>
+</div>
+<script type="module" src="js/main.js"></script>
+</body>
+</html>
